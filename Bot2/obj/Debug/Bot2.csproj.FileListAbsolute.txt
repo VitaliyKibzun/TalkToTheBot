@@ -1,0 +1,9 @@
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\Bot2\bin\Debug\Bot2.dll
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\Bot2\bin\Debug\Bot2.pdb
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\Bot2\obj\Debug\Bot2.dll
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\Bot2\obj\Debug\Bot2.pdb
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\Bot2\bin\Debug\Shared.dll
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\Bot2\bin\Debug\Shared.pdb
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\Bot2\obj\Debug\Bot2.csprojResolveAssemblyReference.cache
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\BotDlls\Bot2.dll
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\BotDlls\Bot2.pdb

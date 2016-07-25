@@ -1,0 +1,5 @@
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\BotDlls\Bot3.dll
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\BotDlls\Bot3.pdb
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\Bot3\obj\Debug\Bot3.csprojResolveAssemblyReference.cache
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\Bot3\obj\Debug\Bot3.dll
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\Bot3\obj\Debug\Bot3.pdb

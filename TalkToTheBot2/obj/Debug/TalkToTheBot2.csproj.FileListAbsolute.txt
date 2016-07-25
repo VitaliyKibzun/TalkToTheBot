@@ -1,0 +1,9 @@
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\TalkToTheBot2\bin\Debug\TalkToTheBot2.exe.config
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\TalkToTheBot2\bin\Debug\TalkToTheBot2.exe
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\TalkToTheBot2\bin\Debug\TalkToTheBot2.pdb
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\TalkToTheBot2\obj\Debug\TalkToTheBot2.csprojResolveAssemblyReference.cache
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\TalkToTheBot2\obj\Debug\TalkToTheBot2.Form1.resources
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\TalkToTheBot2\obj\Debug\TalkToTheBot2.Properties.Resources.resources
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\TalkToTheBot2\obj\Debug\TalkToTheBot2.csproj.GenerateResource.Cache
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\TalkToTheBot2\obj\Debug\TalkToTheBot2.exe
+C:\Users\vitalyki\Documents\Visual Studio 2012\Projects\TalkToTheBot2\TalkToTheBot2\obj\Debug\TalkToTheBot2.pdb
