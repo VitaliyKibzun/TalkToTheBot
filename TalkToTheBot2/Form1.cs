@@ -14,17 +14,38 @@ namespace TalkToTheBot2
 {
     public partial class Form1 : Form
     {
+        // Create list with the collected data from each dll.
+        private List<Tuple<MethodInfo, object, string>> infoCollectedFromDlls = new List<Tuple<MethodInfo, object, string>>();
+        private object createObj;
+
         public Form1()
         {
             InitializeComponent();
-            
+            ReadDlls();
         }
 
         private void buttonSend_Click(object sender, EventArgs e)
         {
             textBoxConversation.Text = textBoxConversation.Text + Environment.NewLine + "You: " + textBoxTypeMessage.Text;
-            ReadDlls();
+            CallMethods();
             textBoxTypeMessage.Clear();
+        }
+
+        private void CallMethods()
+        {
+            foreach (var method in infoCollectedFromDlls)
+            {
+                MethodInfo answerMethod = method.Item1;
+                object classInstance = method.Item2;
+                string classNamespace = method.Item3;
+                string result = (string)answerMethod.Invoke(classInstance, new object[] { textBoxTypeMessage.Text });
+                if (!string.IsNullOrEmpty(result))
+                {
+                    textBoxConversation.Text = textBoxConversation.Text + Environment.NewLine +
+                       classNamespace + ": " + result;
+                    textBoxTypeMessage.Clear();
+                }
+            }
         }
 
         private void ReadDlls()
@@ -49,20 +70,20 @@ namespace TalkToTheBot2
                     
                     // get method Answer
                     MethodInfo getAnswerMethod = type.GetMethod("Answer");
+
+                    // get namespace
+                    string getNamespace = type.Namespace;
+                    
                     if (getAnswerMethod == null)
                     {
                         continue;
                     }
 
-                    //create instance of class and execute method Answer
-                    object obj = Activator.CreateInstance(type);
-                    string result = (string)getAnswerMethod.Invoke(obj, new object[]{textBoxTypeMessage.Text});
-                    if (!string.IsNullOrEmpty(result))
-                    {
-                        textBoxConversation.Text = textBoxConversation.Text + Environment.NewLine +
-                            type.Namespace + ": " + result;
-                        textBoxTypeMessage.Clear();
-                    }
+                    //create instance of class
+                    createObj = Activator.CreateInstance(type);
+
+                    // Add collected data to the list.
+                    infoCollectedFromDlls.Add(new Tuple<MethodInfo, object, string>(getAnswerMethod,createObj,getNamespace));
                 }
             }
         }

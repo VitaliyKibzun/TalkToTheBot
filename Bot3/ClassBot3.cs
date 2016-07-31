@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Shared;
 
 namespace Bot3
 {
-    public class ClassBot3
+    public class ClassBot3 : Ibot
     {
         private string name;
 
